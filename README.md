@@ -69,13 +69,12 @@ EkrafMate AI menggunakan arsitektur **Hybrid AI** untuk performa maksimal:
 > *   **Role Creative:** Username: `creative1` | Password: `creative1`
 > *   **Role Client:** Username: `client1` | Password: `client1`
 > *   **Role Admin:** Username: `ekrafmateadmin` | Password: `ekrafmate123`
-> *(Gunakan akun ini untuk menguji berbagai perspektif fitur di EkrafMate AI)*
 
 ---
 
 ## ⚙️ Arsitektur Teknologi
-*   **Frontend:** React.js, Tailwind CSS, Framer Motion, Lucide Icons.
-*   **Backend:** Node.js, Express.js, MongoDB Atlas.
+*   **Frontend:** eact.js, Tailwind CSS, Framer Motion, Lucide Icons, Azure Static Web App.
+*   **Backend:** Node.js, Express.js, MongoDB Atlas, Azure App Service.
 *   **AI Stack:** Azure OpenAI Service, Azure AI Document Intelligence, Google GenAI.
 
 ---
