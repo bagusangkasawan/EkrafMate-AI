@@ -40,16 +40,20 @@ Kami menghadirkan fitur yang melampaui sekadar *job listing* tradisional:
 ---
 
 ## 🤖 Pemanfaatan AI & Microsoft Azure (AI/Azure Score: 30%)
-EkrafMate AI menggunakan arsitektur **Hybrid AI** untuk performa maksimal:
 
-| Layanan Azure | Fungsi Utama |
-| :--- | :--- |
-| **Azure Document Intelligence** | **Automasi Profil:** Mengekstrak teks dari CV (PDF/Gambar) dengan OCR tingkat tinggi untuk membangun data profil instan. |
-| **Azure OpenAI (GPT 5.4 Mini)** | **Engine Analisis:** Melakukan skoring kecocokan, diagnosa *skill gap*, pembuatan rekomendasi belajar, dan otak di balik MateBot Career Assistant. |
+EkrafMate AI menggunakan arsitektur **Hybrid AI berbasis cloud-native Azure** untuk performa, skalabilitas, dan reliability maksimal:
+
+| Layanan Azure                   | Fungsi Utama                                                                                                                                                               |
+| :------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Azure Document Intelligence** | **Automasi Profil:** Mengekstrak teks dari CV (PDF/Gambar) dengan OCR tingkat tinggi untuk membangun data profil instan.                                                   |
+| **Azure OpenAI (GPT 5.4 Mini)** | **Engine Analisis:** Melakukan skoring kecocokan, diagnosa *skill gap*, pembuatan rekomendasi belajar, dan otak di balik MateBot Career Assistant.                         |
+| **Azure App Service**           | **Backend Hosting:** Menjalankan API berbasis Node.js & Express secara scalable, secure, dan high-availability untuk menangani proses AI, autentikasi, dan business logic. |
+| **Azure Static Web Apps**       | **Frontend Deployment:** Menyediakan hosting frontend React yang cepat, global CDN, auto CI/CD, dan performa optimal untuk pengalaman pengguna yang responsif.             |
 
 **Teknologi Pendukung Lainnya:**
-*   **Google Gemini (Embedding):** Digunakan untuk membuat vektor representasi dari deskripsi proyek.
-*   **MongoDB Atlas Vector Search:** Melakukan pencarian semantik (bukan sekadar keyword) untuk mencocokkan CV dengan proyek secara kontekstual.
+
+* **Google Gemini (Embedding):** Digunakan untuk membuat vektor representasi dari deskripsi proyek.
+* **MongoDB Atlas Vector Search:** Melakukan pencarian semantik (bukan sekadar keyword) untuk mencocokkan CV dengan proyek secara kontekstual.
 
 ---
 
@@ -73,7 +77,7 @@ EkrafMate AI menggunakan arsitektur **Hybrid AI** untuk performa maksimal:
 ---
 
 ## ⚙️ Arsitektur Teknologi
-*   **Frontend:** eact.js, Tailwind CSS, Framer Motion, Lucide Icons, Azure Static Web App.
+*   **Frontend:** React.js, Tailwind CSS, Framer Motion, Lucide Icons, Azure Static Web App.
 *   **Backend:** Node.js, Express.js, MongoDB Atlas, Azure App Service.
 *   **AI Stack:** Azure OpenAI Service, Azure AI Document Intelligence, Google GenAI.
 
